@@ -4,8 +4,8 @@ from routes.estudiante_routes import estudiante
 
 
 app = FastAPI(
-    title="Estudiantes API",
-    description="REST API de Estudiantes usando python y mysql",
+    title="API Lista de Estudiante",
+    description="Uvicorn es un servidor ASGI de alto rendimiento que usaremos para correr nuestra aplicación",
     version="0.0.1",
     # openapi_tags=tags_metadata,
 )
